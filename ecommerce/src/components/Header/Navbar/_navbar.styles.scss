@@ -1,0 +1,30 @@
+.navbar {
+
+    margin-left: auto;
+
+    &--menu {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    &--item {
+        margin-right: 30px;
+    }
+
+    &--link {
+        font-size: 14px;
+        line-height: 17px;
+        font-family: 'Conv_Montserrat-Regular';
+        font-style: normal;
+        font-weight: normal;
+        color: $font-reg-trans;
+
+        &-active {
+            font-family: 'Conv_Montserrat-Bold';
+            font-weight: 700;
+            color: $font-reg;
+        }
+    }
+
+}

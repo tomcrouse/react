@@ -1,0 +1,22 @@
+@import './_variables.styles';
+@import '../fonts/Montserrat/montserrat';
+@import '../components/Header/header.styles';
+@import '../components/Header/Logo/logo.styles';
+@import '../components/buttons/buttons.styles';
+@import '../components/Header/Navbar/navbar.styles';
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}

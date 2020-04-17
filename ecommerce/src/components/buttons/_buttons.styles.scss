@@ -1,0 +1,22 @@
+.btn {
+    width: 79px;
+    height: 34px;
+    background: linear-gradient(180deg, #BC9CFF 0%, #8BA4F9 100%);
+    border-radius: 22px;
+    border: none;
+    font-weight: 700;
+
+    &--login {
+        border: 2px solid transparent;
+        background: $color-primary;
+        background-clip: padding-box;
+        text-transform: uppercase;
+        color: $color-tertiary;
+    }
+
+    &--register {
+        text-transform: uppercase;
+        color: $color-primary;
+    }
+
+}
